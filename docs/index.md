@@ -10,6 +10,10 @@ config:
       image: /icon.png
       actions:
         - theme: brand
+          text: 下载
+          icon: material-symbols:download-2-outline-rounded
+          link: https://gh.llkk.cc/https://github.com/StickyHomeworks2/StickyHomeworks2/releases/download/0.2.0.0/StickyHomeworks2.exe
+        - theme: brand
           text: 阅读文档
           icon: lucide:list-start
           link: /doc/guide/
@@ -26,9 +30,9 @@ config:
       - title: 窗口置底
         icon: ic:twotone-filter-none
         details: 将窗口置于底端，不会遮挡其他软件
-      - title: 窗口标题
-        icon: ic:twotone-font-download
-        details: 自定义软件顶部标题，显示更明了
+      - title: 时间机器
+        icon: ic:twotone-access-time
+        details: 每次保存删除自动备份，不怕作业丢失
       - title: 更新
         icon: material-symbols:update-rounded
         details: 自动下载更新包，不错失新功能
